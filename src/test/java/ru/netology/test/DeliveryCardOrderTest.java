@@ -16,12 +16,8 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class DeliveryCardOrderTest {
-    private Faker faker;
 
-    @BeforeEach
-    void setUpAll() {
-        faker = new Faker(new Locale("ru"));
-    }
+
 
     @Test
     void shouldCheckForm() {
